@@ -1,176 +1,177 @@
-# Android 面试金典目录
+# Table of contents
 
+* [Introduction](README.md)
 
 ## 一 面试准备
 
-* 面试流程
-* 面试内容
-* 如何准备
-    
+* [面试流程](yi-mian-shi-zhun-bei/mian-shi-liu-cheng.md)
+* [面试内容](yi-mian-shi-zhun-bei/mian-shi-nei-rong.md)
+* [如何准备](yi-mian-shi-zhun-bei/ru-he-zhun-bei.md)
+
 ## 二 Android 开发基础
 
-* Java 基础
-    * Object
-    * Java 引用类型
-    * 标准库
-        * 集合
-        * 文件
-        * 网络
-    * 注解
-    * 泛型
-    * 线程池
-    * OOP 原则
-* Android 基础
-    * 四大组件
-    * Fragment
-    * 常用控件
-    * 常用布局
-    * 消息通信
-    * 事件分发
-    * View 绘制
-    * 常见UI组件
-    * Webview
-    * 动画
-    * 数据存储
-    * 网络访问
-    * 设备适配
-    * Gradle
-* 数据结构
-    * 栈和队列
-    * 数组和链表
-    * Hash 表
-    * 二叉树
-    * B树
-    * 红黑树
-* 常见算法
-    * 基础排序算法
-    * 二分查找
-    * 字符串查找
-    * 图算法
-    * 海量数据处理
-    * 分治算法
-    * 动态规划
-    * 贪心算法
-    * 分支界限法
-* 网络基础
-    * HTTP
-    * HTTPS
-    * Socket
-    * TCP和UDP
-    * 加解密
-* 数据库基础
-    * 增删查改
-    * 多表查询
-    * 索引
-    * 事务
+* [Java 基础](er-android-kai-fa-ji-chu/java-ji-chu/README.md)
+  * [Object](er-android-kai-fa-ji-chu/java-ji-chu/object.md)
+  * [Java 引用类型](er-android-kai-fa-ji-chu/java-ji-chu/java-yin-yong-lei-xing.md)
+  * [标准库](er-android-kai-fa-ji-chu/java-ji-chu/biao-zhun-ku/README.md)
+    * [集合](er-android-kai-fa-ji-chu/java-ji-chu/biao-zhun-ku/ji-he.md)
+    * [文件](er-android-kai-fa-ji-chu/java-ji-chu/biao-zhun-ku/wen-jian.md)
+    * [网络](er-android-kai-fa-ji-chu/java-ji-chu/biao-zhun-ku/wang-luo.md)
+  * [注解](er-android-kai-fa-ji-chu/java-ji-chu/zhu-jie.md)
+  * [泛型](er-android-kai-fa-ji-chu/java-ji-chu/fan-xing.md)
+  * [线程池](er-android-kai-fa-ji-chu/java-ji-chu/xian-cheng-chi.md)
+  * [OOP 原则](er-android-kai-fa-ji-chu/java-ji-chu/oop-yuan-ze.md)
+* [Android 基础](er-android-kai-fa-ji-chu/android-ji-chu/README.md)
+  * [四大组件](er-android-kai-fa-ji-chu/android-ji-chu/si-da-zu-jian.md)
+  * [Fragment](er-android-kai-fa-ji-chu/android-ji-chu/fragment.md)
+  * [常用控件](er-android-kai-fa-ji-chu/android-ji-chu/chang-yong-kong-jian.md)
+  * [常用布局](er-android-kai-fa-ji-chu/android-ji-chu/chang-yong-bu-ju.md)
+  * [消息通信](er-android-kai-fa-ji-chu/android-ji-chu/xiao-xi-tong-xin.md)
+  * [事件分发](er-android-kai-fa-ji-chu/android-ji-chu/shi-jian-fen-fa.md)
+  * [View 绘制](er-android-kai-fa-ji-chu/android-ji-chu/view-hui-zhi.md)
+  * [常见UI组件](er-android-kai-fa-ji-chu/android-ji-chu/chang-jian-ui-zu-jian.md)
+  * [Webview](er-android-kai-fa-ji-chu/android-ji-chu/webview.md)
+  * [动画](er-android-kai-fa-ji-chu/android-ji-chu/dong-hua.md)
+  * [数据存储](er-android-kai-fa-ji-chu/android-ji-chu/shu-ju-cun-chu.md)
+  * [网络访问](er-android-kai-fa-ji-chu/android-ji-chu/wang-luo-fang-wen.md)
+  * [设备适配](er-android-kai-fa-ji-chu/android-ji-chu/she-bei-shi-pei.md)
+  * [Gradle](er-android-kai-fa-ji-chu/android-ji-chu/gradle.md)
+* [数据结构](er-android-kai-fa-ji-chu/shu-ju-jie-gou/README.md)
+  * [栈和队列](er-android-kai-fa-ji-chu/shu-ju-jie-gou/zhan-he-dui-lie.md)
+  * [数组和链表](er-android-kai-fa-ji-chu/shu-ju-jie-gou/shu-zu-he-lian-biao.md)
+  * [Hash 表](er-android-kai-fa-ji-chu/shu-ju-jie-gou/hash-biao.md)
+  * [二叉树](er-android-kai-fa-ji-chu/shu-ju-jie-gou/er-cha-shu.md)
+  * [B树](er-android-kai-fa-ji-chu/shu-ju-jie-gou/b-shu.md)
+  * [红黑树](er-android-kai-fa-ji-chu/shu-ju-jie-gou/hong-hei-shu.md)
+* [常见算法](er-android-kai-fa-ji-chu/chang-jian-suan-fa/README.md)
+  * [基础排序算法](er-android-kai-fa-ji-chu/chang-jian-suan-fa/ji-chu-pai-xu-suan-fa.md)
+  * [二分查找](er-android-kai-fa-ji-chu/chang-jian-suan-fa/er-fen-cha-zhao.md)
+  * [字符串查找](er-android-kai-fa-ji-chu/chang-jian-suan-fa/zi-fu-chuan-cha-zhao.md)
+  * [图算法](er-android-kai-fa-ji-chu/chang-jian-suan-fa/tu-suan-fa.md)
+  * [海量数据处理](er-android-kai-fa-ji-chu/chang-jian-suan-fa/hai-liang-shu-ju-chu-li.md)
+  * [分治算法](er-android-kai-fa-ji-chu/chang-jian-suan-fa/fen-zhi-suan-fa.md)
+  * [动态规划](er-android-kai-fa-ji-chu/chang-jian-suan-fa/dong-tai-gui-hua.md)
+  * [贪心算法](er-android-kai-fa-ji-chu/chang-jian-suan-fa/tan-xin-suan-fa.md)
+  * [分支界限法](er-android-kai-fa-ji-chu/chang-jian-suan-fa/fen-zhi-jie-xian-fa.md)
+* [网络基础](er-android-kai-fa-ji-chu/wang-luo-ji-chu/README.md)
+  * [HTTP](er-android-kai-fa-ji-chu/wang-luo-ji-chu/http.md)
+  * [HTTPS](er-android-kai-fa-ji-chu/wang-luo-ji-chu/https.md)
+  * [Socket](er-android-kai-fa-ji-chu/wang-luo-ji-chu/socket.md)
+  * [TCP和UDP](er-android-kai-fa-ji-chu/wang-luo-ji-chu/tcp-he-udp.md)
+  * [加解密](er-android-kai-fa-ji-chu/wang-luo-ji-chu/jia-jie-mi.md)
+* [数据库基础](er-android-kai-fa-ji-chu/shu-ju-ku-ji-chu/README.md)
+  * [增删查改](er-android-kai-fa-ji-chu/shu-ju-ku-ji-chu/zeng-shan-cha-gai.md)
+  * [多表查询](er-android-kai-fa-ji-chu/shu-ju-ku-ji-chu/duo-biao-cha-xun.md)
+  * [索引](er-android-kai-fa-ji-chu/shu-ju-ku-ji-chu/suo-yin.md)
+  * [事务](er-android-kai-fa-ji-chu/shu-ju-ku-ji-chu/shi-wu.md)
 
 ## 三 Android 进阶知识
 
-* Java 进阶
-    * 反射
-    * 动态代理
-    * 线程同步
-    * 序列化
-    * Java 8 函数式编程
-    * JNI
-    * NIO
-    * JVM
-        * class 文件
-        * 内存模型
-        * GC 机制
-        * 编译过程
-        * 类加载机制
-     * AOP
-* Android 开发机制
-    * 自定义控件
-    * Handler
-    * 多进程
-    * NDK 编程
-    * IPC
-    * 编译过程
-* 常见开源库原理
-    * 网络库
-    * 图片库
-    * 路由
-    * 消息通讯
-    * 数据库框架
-    * 数据解析
-    * 依赖注入
-    * 热修复
-    * 插件
-
+* [Java 进阶](san-android-jin-jie-zhi-shi/java-jin-jie/README.md)
+  * [反射](san-android-jin-jie-zhi-shi/java-jin-jie/fan-she.md)
+  * [动态代理](san-android-jin-jie-zhi-shi/java-jin-jie/dong-tai-dai-li.md)
+  * [线程同步](san-android-jin-jie-zhi-shi/java-jin-jie/xian-cheng-tong-bu.md)
+  * [序列化](san-android-jin-jie-zhi-shi/java-jin-jie/xu-lie-hua.md)
+  * [Java 8 函数式编程](san-android-jin-jie-zhi-shi/java-jin-jie/java-8-han-shu-shi-bian-cheng.md)
+  * [JNI](san-android-jin-jie-zhi-shi/java-jin-jie/jni.md)
+  * [NIO](san-android-jin-jie-zhi-shi/java-jin-jie/nio.md)
+  * [JVM](san-android-jin-jie-zhi-shi/java-jin-jie/jvm/README.md)
+    * [class 文件](san-android-jin-jie-zhi-shi/java-jin-jie/jvm/class-wen-jian.md)
+    * [内存模型](san-android-jin-jie-zhi-shi/java-jin-jie/jvm/nei-cun-mo-xing.md)
+    * [GC 机制](san-android-jin-jie-zhi-shi/java-jin-jie/jvm/gc-ji-zhi.md)
+    * [编译过程](san-android-jin-jie-zhi-shi/java-jin-jie/jvm/bian-yi-guo-cheng.md)
+    * [类加载机制](san-android-jin-jie-zhi-shi/java-jin-jie/jvm/lei-jia-zai-ji-zhi/README.md)
+      * [AOP](san-android-jin-jie-zhi-shi/java-jin-jie/jvm/lei-jia-zai-ji-zhi/aop.md)
+* [Android 开发机制](san-android-jin-jie-zhi-shi/android-kai-fa-ji-zhi/README.md)
+  * [自定义控件](san-android-jin-jie-zhi-shi/android-kai-fa-ji-zhi/zi-ding-yi-kong-jian.md)
+  * [Handler](san-android-jin-jie-zhi-shi/android-kai-fa-ji-zhi/handler.md)
+  * [多进程](san-android-jin-jie-zhi-shi/android-kai-fa-ji-zhi/duo-jin-cheng.md)
+  * [NDK 编程](san-android-jin-jie-zhi-shi/android-kai-fa-ji-zhi/ndk-bian-cheng.md)
+  * [IPC](san-android-jin-jie-zhi-shi/android-kai-fa-ji-zhi/ipc.md)
+  * [编译过程](san-android-jin-jie-zhi-shi/android-kai-fa-ji-zhi/bian-yi-guo-cheng.md)
+* [常见开源库原理](san-android-jin-jie-zhi-shi/chang-jian-kai-yuan-ku-yuan-li/README.md)
+  * [网络库](san-android-jin-jie-zhi-shi/chang-jian-kai-yuan-ku-yuan-li/wang-luo-ku.md)
+  * [图片库](san-android-jin-jie-zhi-shi/chang-jian-kai-yuan-ku-yuan-li/tu-pian-ku.md)
+  * [路由](san-android-jin-jie-zhi-shi/chang-jian-kai-yuan-ku-yuan-li/lu-you.md)
+  * [消息通讯](san-android-jin-jie-zhi-shi/chang-jian-kai-yuan-ku-yuan-li/xiao-xi-tong-xun.md)
+  * [数据库框架](san-android-jin-jie-zhi-shi/chang-jian-kai-yuan-ku-yuan-li/shu-ju-ku-kuang-jia.md)
+  * [数据解析](san-android-jin-jie-zhi-shi/chang-jian-kai-yuan-ku-yuan-li/shu-ju-jie-xi.md)
+  * [依赖注入](san-android-jin-jie-zhi-shi/chang-jian-kai-yuan-ku-yuan-li/yi-lai-zhu-ru.md)
+  * [热修复](san-android-jin-jie-zhi-shi/chang-jian-kai-yuan-ku-yuan-li/re-xiu-fu.md)
+  * [插件](san-android-jin-jie-zhi-shi/chang-jian-kai-yuan-ku-yuan-li/cha-jian.md)
 
 ## 四 Android 架构与优化
 
-* Android 应用架构
-    * 常见架构
-        * MVC
-        * MVP
-        * MVVM
-        * Flux
-        * Clean 架构
-        * 插件化
-        * 组件化
-    * 设计模式
-* Android 性能优化
-    * 启动优化
-    * 卡顿优化
-    * 布局优化
-    * 线程优化
-    * 内存优化
-    * CPU 优化
-    * GPU 优化
-    * 磁盘优化
-    * 体积优化
-    * 电量优化
-    * 体积优化
-    * 稳定优化
-    * 性能监控
+* [Android 应用架构](si-android-jia-gou-yu-you-hua/android-ying-yong-jia-gou/README.md)
+  * [常见架构](si-android-jia-gou-yu-you-hua/android-ying-yong-jia-gou/chang-jian-jia-gou/README.md)
+    * [MVC](si-android-jia-gou-yu-you-hua/android-ying-yong-jia-gou/chang-jian-jia-gou/mvc.md)
+    * [MVP](si-android-jia-gou-yu-you-hua/android-ying-yong-jia-gou/chang-jian-jia-gou/mvp.md)
+    * [MVVM](si-android-jia-gou-yu-you-hua/android-ying-yong-jia-gou/chang-jian-jia-gou/mvvm.md)
+    * [Flux](si-android-jia-gou-yu-you-hua/android-ying-yong-jia-gou/chang-jian-jia-gou/flux.md)
+    * [Clean 架构](si-android-jia-gou-yu-you-hua/android-ying-yong-jia-gou/chang-jian-jia-gou/clean-jia-gou.md)
+    * [插件化](si-android-jia-gou-yu-you-hua/android-ying-yong-jia-gou/chang-jian-jia-gou/cha-jian-hua.md)
+    * [组件化](si-android-jia-gou-yu-you-hua/android-ying-yong-jia-gou/chang-jian-jia-gou/zu-jian-hua.md)
+  * [设计模式](si-android-jia-gou-yu-you-hua/android-ying-yong-jia-gou/she-ji-mo-shi.md)
+* [Android 性能优化](si-android-jia-gou-yu-you-hua/android-xing-neng-you-hua/README.md)
+  * [启动优化](si-android-jia-gou-yu-you-hua/android-xing-neng-you-hua/qi-dong-you-hua.md)
+  * [卡顿优化](si-android-jia-gou-yu-you-hua/android-xing-neng-you-hua/qia-dun-you-hua.md)
+  * [布局优化](si-android-jia-gou-yu-you-hua/android-xing-neng-you-hua/bu-ju-you-hua.md)
+  * [线程优化](si-android-jia-gou-yu-you-hua/android-xing-neng-you-hua/xian-cheng-you-hua.md)
+  * [内存优化](si-android-jia-gou-yu-you-hua/android-xing-neng-you-hua/nei-cun-you-hua.md)
+  * [CPU 优化](si-android-jia-gou-yu-you-hua/android-xing-neng-you-hua/cpu-you-hua.md)
+  * [GPU 优化](si-android-jia-gou-yu-you-hua/android-xing-neng-you-hua/gpu-you-hua.md)
+  * [磁盘优化](si-android-jia-gou-yu-you-hua/android-xing-neng-you-hua/ci-pan-you-hua.md)
+  * [体积优化](si-android-jia-gou-yu-you-hua/android-xing-neng-you-hua/ti-ji-you-hua.md)
+  * [电量优化](si-android-jia-gou-yu-you-hua/android-xing-neng-you-hua/dian-liang-you-hua.md)
+  * [体积优化](si-android-jia-gou-yu-you-hua/android-xing-neng-you-hua/ti-ji-you-hua-1.md)
+  * [稳定优化](si-android-jia-gou-yu-you-hua/android-xing-neng-you-hua/wen-ding-you-hua.md)
+  * [性能监控](si-android-jia-gou-yu-you-hua/android-xing-neng-you-hua/xing-neng-jian-kong.md)
 
 ## 五 Android 系统机制
 
-* Binder机制
-* 系统服务
-    * AMS
-    * PMS
-    * WMS
-    * SM
-    * Context
-* 系统启动
-* 应用启动
-* 资源管理
-* 待机恢复
-* 渲染机制
-* 沙箱机制
-* input 管理
-* 存储架构
+* [Binder机制](wu-android-xi-tong-ji-zhi/binder-ji-zhi.md)
+* [系统服务](wu-android-xi-tong-ji-zhi/xi-tong-fu-wu/README.md)
+  * [AMS](wu-android-xi-tong-ji-zhi/xi-tong-fu-wu/ams.md)
+  * [PMS](wu-android-xi-tong-ji-zhi/xi-tong-fu-wu/pms.md)
+  * [WMS](wu-android-xi-tong-ji-zhi/xi-tong-fu-wu/wms.md)
+  * [SM](wu-android-xi-tong-ji-zhi/xi-tong-fu-wu/sm.md)
+  * [Context](wu-android-xi-tong-ji-zhi/xi-tong-fu-wu/context.md)
+* [系统启动](wu-android-xi-tong-ji-zhi/xi-tong-qi-dong.md)
+* [应用启动](wu-android-xi-tong-ji-zhi/ying-yong-qi-dong.md)
+* [资源管理](wu-android-xi-tong-ji-zhi/zi-yuan-guan-li.md)
+* [待机恢复](wu-android-xi-tong-ji-zhi/dai-ji-hui-fu.md)
+* [渲染机制](wu-android-xi-tong-ji-zhi/xuan-ran-ji-zhi.md)
+* [沙箱机制](wu-android-xi-tong-ji-zhi/sha-xiang-ji-zhi.md)
+* [input 管理](wu-android-xi-tong-ji-zhi/input-guan-li.md)
+* [存储架构](wu-android-xi-tong-ji-zhi/cun-chu-jia-gou.md)
 
 ## 六 Android 专项
 
-* 音视频
-* 图片处理
-* 蓝牙
-* Wi-Fi
-* Camera
-* 应用安全
-    * 混淆
-    * 加解密
-    * 发编译
-    * 防反编译
-    * 安全编码
-    * Root原理
-* Hook 技术
-* 消息推送
-* 增量升级
-* 响应式编程
-* 单元测试
-* AOP
-* AR/VR
-* Kotlin
-* Flutter
-* AI
-* 物联网
+* [音视频](liu-android-zhuan-xiang/yin-shi-pin.md)
+* [图片处理](liu-android-zhuan-xiang/tu-pian-chu-li.md)
+* [蓝牙](liu-android-zhuan-xiang/lan-ya.md)
+* [Wi-Fi](liu-android-zhuan-xiang/wi-fi.md)
+* [Camera](liu-android-zhuan-xiang/camera.md)
+* [应用安全](liu-android-zhuan-xiang/ying-yong-an-quan/README.md)
+  * [混淆](liu-android-zhuan-xiang/ying-yong-an-quan/hun-xiao.md)
+  * [加解密](liu-android-zhuan-xiang/ying-yong-an-quan/jia-jie-mi.md)
+  * [发编译](liu-android-zhuan-xiang/ying-yong-an-quan/fa-bian-yi.md)
+  * [防反编译](liu-android-zhuan-xiang/ying-yong-an-quan/fang-fan-bian-yi.md)
+  * [安全编码](liu-android-zhuan-xiang/ying-yong-an-quan/an-quan-bian-ma.md)
+  * [Root原理](liu-android-zhuan-xiang/ying-yong-an-quan/root-yuan-li.md)
+* [Hook 技术](liu-android-zhuan-xiang/hook-ji-shu.md)
+* [消息推送](liu-android-zhuan-xiang/xiao-xi-tui-song.md)
+* [增量升级](liu-android-zhuan-xiang/zeng-liang-sheng-ji.md)
+* [响应式编程](liu-android-zhuan-xiang/xiang-ying-shi-bian-cheng.md)
+* [单元测试](liu-android-zhuan-xiang/dan-yuan-ce-shi.md)
+* [AOP](liu-android-zhuan-xiang/aop.md)
+* [AR/VR](liu-android-zhuan-xiang/ar-vr.md)
+* [Kotlin](liu-android-zhuan-xiang/kotlin.md)
+* [Flutter](liu-android-zhuan-xiang/flutter.md)
+* [AI](liu-android-zhuan-xiang/ai.md)
+* [物联网](liu-android-zhuan-xiang/wu-lian-wang.md)
 
 ## 七 Android 杂谈
 
-* Android 未来展望
+* [Android 未来展望](qi-android-za-tan/android-wei-lai-zhan-wang.md)
+
